@@ -19,10 +19,10 @@ The technologies used in this system include Solidity for smart contract develop
 This system is significant in solving global supply chain issues as it provides a reliable method to verify the authenticity of products, thereby reducing the prevalence of counterfeit goods. It enhances transparency and trust among stakeholders in the supply chain, from manufacturers to consumers. 
 
 ## Basic Walkthrough
-- The `identeefi-backend-node` directory contains the codebase for the backend of the system.
-- The `identeefi-frontend-react` directory contains the codebase for the frontend of the system.
-- The `identeefi-postgres-database` directory contains the csv files for the backend database.
-- The `identeefi-smartcontract-solidity` directory contains the smart contract deployed to the Ethereum network.
+- The `truecode-backend-node` directory contains the codebase for the backend of the system.
+- The `truecode-frontend-react` directory contains the codebase for the frontend of the system.
+- The `truecode-postgres-database` directory contains the csv files for the backend database.
+- The `truecode-smartcontract-solidity` directory contains the smart contract deployed to the Ethereum network.
 
 ## Technologies Used
 - Solidity
@@ -40,10 +40,10 @@ This system is significant in solving global supply chain issues as it provides 
 ## Project Setup
 To get started with this project, 
 1. Clone the repository.
-2. In `identeefi-postgres-database`, import the csv files to your own postgres database.
-3. In `identeefi-backend-node`, run `npm i` to install the dependencies and change the postgres credentials to your postgres crediantials and run `node postgres.js` to start the backend execution.
-4. In `identeefi-frontend-react`, run `npm i` to install the dependencies and run `npm start` to start localhost.
-5. You can inspect `identeefi-smartcontract-solidity` directory to view the smart contract details that is deployed to the Sepolia Testnet.
+2. In `truecode-postgres-database`, import the csv files to your own postgres database.
+3. In `truecode-backend-node`, run `npm i` to install the dependencies and change the postgres credentials to your postgres crediantials and run `node postgres.js` to start the backend execution.
+4. In `truecode-frontend-react`, run `npm i` to install the dependencies and run `npm start` to start localhost.
+5. You can inspect `truecode-smartcontract-solidity` directory to view the smart contract details that is deployed to the Sepolia Testnet.
 6. To perform transactions, setup your Metamask wallet and connect your wallet to the Sepolia Tesnet Network and transact using SepoliaETH which can be obtained for free on Seplolia Faucet (https://sepoliafaucet.com/).
 
 For more information, you can view our user manual:
