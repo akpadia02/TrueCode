@@ -45,8 +45,3 @@ To get started with this project,
 4. In `truecode-frontend-react`, run `npm i` to install the dependencies and run `npm start` to start localhost.
 5. You can inspect `truecode-smartcontract-solidity` directory to view the smart contract details that is deployed to the Sepolia Testnet.
 6. To perform transactions, setup your Metamask wallet and connect your wallet to the Sepolia Tesnet Network and transact using SepoliaETH which can be obtained for free on Seplolia Faucet (https://sepoliafaucet.com/).
-
-For more information, you can view our user manual:
-[View User Manual](/user-manual.pdf)
-
-
